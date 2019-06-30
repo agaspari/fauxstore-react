@@ -1,0 +1,110 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btn {
+    margin: 2px;
+}
+
+.page-header-container {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page-title {
+    border-bottom: 5px solid #007bff;
+    border-radius: 4px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.page-title.no-border {
+    border: none;
+}
+
+.product-list {
+    float: right;
+}
+
+.product-list .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.product-filters {
+    justify-content: center;
+    text-align: center;
+}
+
+.product-filters h1 {
+    width: 100%;
+    justify-content: center;
+}
+
+.product-filters ul {
+    list-style: none;
+    text-align: left;
+    margin-left: -50px;
+}
+
+.product-filters li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.btnFilter {
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: proxima-nova, Arial, Helvetica, sans-seri;
+}
+
+.btnFilter:hover {
+    text-decoration: none;
+}
+
+.btnFilter.active {
+    border-bottom: 3px solid #1483c6;
+    color: #1483c6;
+    font-weight: 700;
+}
+
+.product-card {
+    width: 18rem;
+    margin: 5px;
+    float: center;
+}
